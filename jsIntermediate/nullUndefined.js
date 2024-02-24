@@ -21,8 +21,8 @@ let result2;
 
 // 연산을 통해 result1에 문자열 '34'를, result2에 숫자형 34를 할당
 // 여기에 코드를 작성하세요
-result1 = material2+material4;
-result2= material1*material3+material5;
+result1 = material2 + material4;
+result2 = material1 * material3 + material5;
 
 // 테스트 코드
 console.log(result1);
@@ -32,5 +32,5 @@ console.log(typeof result2);
 
 // null, defined 안나와서 내가 적는 코드
 
-console.log(null == undefined) // true 자동 형변환이 되기 때문이다.
-console.log(null === undefined) // false 자동 형변환이 되지 않기 때문
+console.log(null == undefined); // true 자동 형변환이 되기 때문이다.
+console.log(null === undefined); // false 자동 형변환이 되지 않기 때문
