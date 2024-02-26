@@ -14,5 +14,10 @@
 // .
 // 9 * 7 = 63
 // 9 * 8 = 72
-// 9 * 9 = 81
+// 9 1 9 = 81
 
+for (let index = 1; index < 10; index++) {
+    for (let jndex = 0; jndex < 10; jndex++) {
+        console.log(`${index} * ${jndex} = ${index*jndex}`);        
+    }
+}
